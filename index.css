@@ -17,6 +17,11 @@ ul.nav-pills {
   color: #0076bd;
 }
 
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
 /* .nav-pills > li.active > a,
 .nav-pills > li.active > a:focus,
 .nav-pills > li.active > a:hover {
@@ -30,4 +35,14 @@ nav ul {
 
 li a.active {
   color: #f57c00;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.sub-heading {
+  font-size: 18px;
+  font-weight: 500;
 }
