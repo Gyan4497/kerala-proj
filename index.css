@@ -7,10 +7,10 @@ ul.nav-pills {
   position: fixed;
 }
 
-div.col-sm-9 div {
+/* div.col-sm-9 div {
   height: 250px;
   font-size: 28px;
-}
+} */
 
 .nav-pills > li {
   background: none;
