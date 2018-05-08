@@ -1,3 +1,6 @@
+body {
+  background-color: #34495e;
+}
 .header-icon {
   width: 60px;
   height: 38px;
@@ -62,4 +65,56 @@
 
 .line-spacing {
   padding-bottom: 8px;
+}
+
+.lp-header {
+  z-index: 4;
+  position: absolute;
+  top: 0px;
+  height: 120px;
+  width: 100%;
+  background: transparent;
+  /* display: inline-flex; */
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 28px;
+}
+.top-image img {
+  width: 100%;
+  height: 557px;
+}
+
+.lp-logo img {
+  border-radius: 50%;
+  width: 66px;
+  height: 66px;
+  background: url("../assets/kozhikode_logo.png") no-repeat;
+  float: left;
+  margin: 0px 16px 10px 52px;
+}
+
+.lp-municipal-council {
+  margin-top: 16px;
+}
+
+.lp-egov-logo img {
+  width: 283px;
+  height: 64px;
+  margin-right: 35px;
+  float: right;
+}
+
+.lp-login-text {
+  margin-top: 22px;
+  margin-right: 26px;
+}
+
+.lp-login-text::before {
+  background: url("");
 }

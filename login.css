@@ -1,0 +1,14 @@
+.login-form {
+  background: slategray;
+  padding: 50px;
+}
+
+.login-create-account {
+  display: flex;
+  flex-direction: row !important;
+}
+
+.create-account {
+  width: 180px;
+  border: 1px solid black;
+}
