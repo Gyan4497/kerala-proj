@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/landingpage.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        .icon-header {
+            display: block !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="card  ">
+            <div class="card-content landingpage-card1">
+                <span class="card-title card-header">ABOUT BPA SYSTEM</span>
+                <div class="col s12 m2 offset-m1">
+                    <img class="header-icon" src="assets/ICONS/BPA_1.png" />
+                    <p class="landingpage-card-description">Digitization of entire process</p>
+                </div>
+                <div class="col s12 m2">
+                    <img class="header-icon" src="assets/ICONS/BPA_2.png" />
+                    <p class="landingpage-card-description">Single window for multiple services</p>
+                </div>
+                <div class="col s12 m2">
+                    <img class="header-icon" src="assets/ICONS/BPA_3.png" />
+                    <p class="landingpage-card-description">Open Source,Smart System</p>
+                </div>
+                <div class="col s12 m2">
+                    <img class="header-icon" src="assets/ICONS/BPA_4.png" />
+                    <p class="landingpage-card-description">Standardization of approval process</p>
+                </div>
+                <div class="col s12 m2">
+                    <img class="header-icon" src="assets/ICONS/BPA_5.png" />
+                    <p class="landingpage-card-description">Automated workflows,reduced turn around time</p>
+                </div>
+            </div>
+            <ul class="collapsible">
+                <li>
+                    <div class="collapsible-body">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div class="collapsible-header">
+                        <i class="material-icons">keyboard_arrow_down</i>
+                    </div>
+
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.collapsible');
+            // var instances = M.Collapsible.init(elems, options);
+        });
+
+        // Or with jQuery
+
+        $(document).ready(function () {
+            $('.collapsible').collapsible();
+        });
+    </script>
+
+</body>
+
+</html>
