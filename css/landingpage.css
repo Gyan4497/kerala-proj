@@ -45,3 +45,15 @@
 .margin {
   margin-left: 24px;
 }
+
+.help-documents-card {
+  padding-left: 24px;
+}
+
+.dashboard-card {
+  padding-left: 110px;
+}
+
+.line-spacing {
+  padding-bottom: 8px;
+}
