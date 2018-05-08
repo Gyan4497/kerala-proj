@@ -7,7 +7,7 @@
   margin-bottom: 24px;
 }
 .landingpage-card1 {
-  padding-bottom: 200px !important;
+  padding-bottom: 100px !important;
 }
 .card-header {
   text-align: center;
@@ -21,7 +21,20 @@
   text-align: center;
 }
 .landingpage-card-down-arrow {
-  text-align: center;
+  text-align: center !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.card-body {
+  border: none !important;
+}
+.card-collapse {
+  border: none;
+  box-shadow: none;
+}
+.card-collapse-header {
+  border: none;
 }
 .landingpage-font-style {
   font-family: Roboto;
