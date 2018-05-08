@@ -51,21 +51,63 @@ body {
   font-weight: 500;
 }
 
-.margin {
-  margin-left: 24px;
+.main-padding {
+  padding: 0px 40px;
 }
 
 .help-documents-card {
   padding-left: 24px;
+  padding-bottom: 100px;
 }
 
 .dashboard-card {
+  padding-top: 0px;
+  padding-right: 110px;
   padding-left: 110px;
+  padding-bottom: 40px;
+  margin: 0px !important;
 }
 
 .line-spacing {
   padding-bottom: 8px;
 }
+
+.header-padding {
+  padding-top: 24px;
+}
+
+.dashboard-icon-style {
+  width: 60px;
+  height: 60px;
+}
+
+.application-number {
+  font-size: 48px;
+  font-weight: 500;
+  color: #6c8ca1;
+}
+
+.application-recieved {
+  font-size: 20px;
+  font-weight: 500;
+  color: #6c8ca1;
+}
+
+.left-cont {
+  padding-top: 10px !important;
+}
+
+.dashboard-card-content {
+  text-align: right;
+  padding-bottom: 5px !important;
+  /* padding: 0px !important; */
+}
+
+/* .dashboard-cards-style {
+  padding-bottom: 50px;
+  box-shadow: none;
+  margin: 0px;
+} */
 
 .lp-header {
   z-index: 4;
