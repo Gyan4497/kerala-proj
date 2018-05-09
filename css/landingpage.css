@@ -10,7 +10,9 @@ body {
   margin-bottom: 24px;
 }
 .landingpage-card-content {
-  padding-bottom: 16px !important;
+  padding: 0px !important;
+  display: block;
+  border-bottom: none;
 }
 .landingpage-card {
   margin: 26px 50px 0px;
@@ -21,7 +23,7 @@ body {
   font-size: 20px !important;
   font-weight: 500 !important;
   color: #6c8ca1;
-  margin-bottom: 26px !important;
+  padding-bottom: 26px !important;
 }
 .landingpage-card-description {
   text-align: center;
@@ -41,7 +43,7 @@ body {
   box-shadow: none;
 }
 .card-collapse-header {
-  border: none;
+  border: none !important;
   padding: 0px;
   margin-bottom: 0px;
 }
@@ -159,4 +161,7 @@ body {
 
 .lp-login-text::before {
   background: url("");
+}
+.row-hide {
+  display: none;
 }
