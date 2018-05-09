@@ -2,17 +2,17 @@ body {
   background-color: #34495e;
 }
 .header-icon {
-  width: 60px;
-  height: 38px;
+  height: 60px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
 }
 .landingpage-card-content {
   padding: 0px !important;
   display: block;
   border-bottom: none;
+  margin-bottom: 0px;
 }
 .landingpage-card {
   margin: 26px 50px 0px;
@@ -23,12 +23,24 @@ body {
   font-size: 20px !important;
   font-weight: 500 !important;
   color: #6c8ca1;
+  padding-top: 24px !important;
   padding-bottom: 26px !important;
 }
 .landingpage-card-description {
+  margin-bottom: 0px;
+  padding-bottom: 60px;
+}
+.landingpage-card-icon-description {
   text-align: center;
+  height: 60px;
 }
 .landingpage-card-down-arrow {
+  text-align: center !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.landingpage-card-up-arrow {
   text-align: center !important;
   display: block !important;
   margin-left: auto !important;
@@ -163,5 +175,5 @@ body {
   background: url("");
 }
 .row-hide {
-  display: none;
+  display: none !important;
 }
