@@ -20,7 +20,6 @@ body {
 }
 .card-header {
   text-align: center;
-  font-family: Roboto;
   font-size: 20px !important;
   font-weight: 500 !important;
   color: #6c8ca1;
@@ -64,7 +63,6 @@ body {
   outline: none;
 }
 .landingpage-font-style {
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
 }
@@ -172,7 +170,7 @@ body {
 
 .lp-login-text {
   margin-top: 22px;
-  margin-right: 26px;
+  margin-right: 56px;
 }
 
 .lp-login-text::before {
@@ -180,4 +178,66 @@ body {
 }
 .row-hide {
   display: none !important;
+}
+
+.page-desc {
+  z-index: 5;
+  width: 376px;
+  height: 197px;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  right: 50px;
+  top: 136px;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #ffffff;
+  padding: 16px;
+}
+.page-desc-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.lp-footer {
+  height: 169px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 50px 0px 50px;
+}
+
+.address,
+.phone {
+  width: 50%;
+  text-align: center;
+}
+
+.address img,
+.phone img {
+  width: 28px;
+  height: 36px;
+}
+
+.add-text,
+.no-text {
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+
+.lp-login-text img {
+  color: white;
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+}
+
+.lp-login-text {
+  color: white;
+  display: inline-flex;
 }

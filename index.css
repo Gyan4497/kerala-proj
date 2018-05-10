@@ -51,3 +51,9 @@ li a.active {
   font-size: 16px;
   font-weight: 900;
 }
+
+.lp-footer {
+  height: 169px;
+  width: 100%;
+  color: white;
+}
